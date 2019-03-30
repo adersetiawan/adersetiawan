@@ -1,0 +1,26 @@
+.bg-header {
+    background: rgb(61, 128, 237);
+    background-image: url(bg-header-1.jpg) no-repeat;
+    background-image: url(bg-header-1.jpg), linear-gradient(180deg,rgb(223, 21, 115),white);
+    background-blend-mode: multiply;
+    background-size : cover;
+    background-position: center;
+}
+.bg-header img {
+    width: 25%;
+
+}
+
+.navbar-title {
+    font-family: 'Germania One', cursive;
+    text-transform: lowercase;
+    text-shadow: 0 3px rgba(0,0,0, .5);
+    font-size:25px;
+}
+
+
+@media (max-width: 768px) {
+    .bg-header img {
+        width: 50%;
+    }
+}
